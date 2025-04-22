@@ -1,0 +1,18 @@
+ Parte 4: Preguntas cortas  
+1. ¿Para qué se usan las claves foráneas? 
+
+Las claves foráneas se usan en bases de datos relacionales, 
+ya que establecen la integridad referencial entre tablas. 
+Permiten definir relaciones, asegurando que los valores en una columna de clave foránea correspondan 
+a registros existentes en la tabla referenciada. Esto evita la inserción de datos inválidos y facilita 
+la realización de consultas complejas mediante JOINs. Además, contribuyen a la normalización de la base de datos, 
+minimizando la redundancia y mejorando la organización de los datos. 
+Las claves foráneas también sirven como documentación de las relaciones entre tablas, 
+lo que facilita la comprensión y el mantenimiento del sistema.
+
+
+
+2. ¿Qué diferencia hay entre INNER JOIN y LEFT JOIN? 
+INNER JOIN filtra los resultados para mostrar solo las coincidencias, 
+mientras que LEFT JOIN incluye todos los registros de la tabla de la izquierda y 
+muestra NULL para los registros de la tabla de la derecha que no tienen coincidencias.
